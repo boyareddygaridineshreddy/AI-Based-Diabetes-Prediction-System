@@ -1,426 +1,256 @@
-\# 🩺 AI-Based Diabetes Prediction System
+# 🩺 AI-Based Diabetes Prediction System
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Random Forest](https://img.shields.io/badge/Algorithm-Random%20Forest-success)
 
+---
 
-!\[Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+# 📌 Project Overview
 
-!\[Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
+The **AI-Based Diabetes Prediction System** is a Machine Learning web application developed using **Python** and **Streamlit**. It predicts the likelihood of diabetes based on important health parameters entered by the user.
 
-!\[Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+The application not only predicts diabetes risk but also provides useful health insights including BMI analysis, Blood Pressure analysis, Blood Glucose analysis, Healthy Lifestyle Score, Patient Health Summary, and Personalized Health Recommendations.
 
-!\[Random Forest](https://img.shields.io/badge/Algorithm-Random%20Forest-success)
+> **Note:** This project is developed for educational and academic purposes only and should not be considered a substitute for professional medical advice.
 
+---
 
+# 🎯 Project Objectives
 
-\## 📌 Project Overview
+- Predict diabetes risk using Machine Learning.
+- Provide a simple and user-friendly healthcare application.
+- Help users understand important health indicators.
+- Demonstrate the practical application of Artificial Intelligence in healthcare.
+- Generate personalized health recommendations based on user inputs.
 
+---
 
+# ✨ Features
 
-The \*\*AI-Based Diabetes Prediction System\*\* is a Machine Learning web application developed using \*\*Python\*\* and \*\*Streamlit\*\*. It predicts the likelihood of diabetes based on important health parameters provided by the user.
+- ✅ Diabetes Prediction
+- ✅ Diabetes Risk Percentage
+- ✅ BMI Analysis
+- ✅ Blood Pressure Analysis
+- ✅ Blood Glucose Analysis
+- ✅ Healthy Lifestyle Score
+- ✅ Patient Health Summary
+- ✅ Personalized Health Recommendations
+- ✅ Modern & Professional User Interface
+- ✅ Educational Medical Disclaimer
 
+---
 
+# 🧠 Machine Learning Model
 
-The application provides not only the prediction result but also health insights such as BMI analysis, Blood Pressure analysis, Glucose analysis, Health Score, and personalized health recommendations.
+## Algorithm Used
 
+- Random Forest Classifier
 
+## Model Configuration
 
-> \*\*Note:\*\* This project is developed for educational and academic purposes.
+- Number of Trees: **100**
+- Maximum Tree Depth: **15**
+- Minimum Samples per Leaf: **5**
+- Random State: **42**
 
+## Input Features
 
+- Age
+- Body Mass Index (BMI)
+- Systolic Blood Pressure
+- Diastolic Blood Pressure
+- Total Cholesterol
+- Fasting Blood Glucose
+- Physical Activity (Minutes per Week)
 
-\---
+## Output
 
+- Diabetic
+- Non-Diabetic
+- Diabetes Risk Percentage
 
+---
 
-\# 🎯 Objectives
-
-
-
-\- Predict diabetes risk using Machine Learning.
-
-\- Provide a simple and user-friendly interface.
-
-\- Help users understand important health indicators.
-
-\- Demonstrate the practical application of Artificial Intelligence in healthcare.
-
-
-
-\---
-
-
-
-\# ✨ Features
-
-
-
-✅ Diabetes Risk Prediction
-
-
-
-✅ Risk Percentage
-
-
-
-✅ BMI Analysis
-
-
-
-✅ Blood Pressure Analysis
-
-
-
-✅ Glucose Analysis
-
-
-
-✅ Healthy Lifestyle Score
-
-
-
-✅ Patient Health Summary
-
-
-
-✅ Personalized Health Recommendations
-
-
-
-✅ Professional User Interface
-
-
-
-✅ Educational Disclaimer
-
-
-
-\---
-
-
-
-\# 🧠 Machine Learning Model
-
-
-
-\*\*Algorithm Used\*\*
-
-
-
-\- Random Forest Classifier
-
-
-
-\### Input Features
-
-
-
-\- Age
-
-\- Body Mass Index (BMI)
-
-\- Systolic Blood Pressure
-
-\- Diastolic Blood Pressure
-
-\- Total Cholesterol
-
-\- Fasting Blood Glucose
-
-\- Physical Activity (Minutes per Week)
-
-
-
-\### Output
-
-
-
-\- Diabetic
-
-\- Non-Diabetic
-
-\- Risk Percentage
-
-
-
-\---
-
-
-
-\# 📊 Model Evaluation
-
-
+# 📊 Model Performance
 
 | Metric | Value |
+|---------|-------|
+| Accuracy | **72.76%** |
+| Precision | **76.59%** |
+| Recall | **78.22%** |
+| F1-Score | **77.39%** |
+| ROC-AUC Score | **80.21%** |
 
-|---------|------:|
+---
 
-| Accuracy | \*\*72.76%\*\* |
+# 🔄 Project Workflow
 
-| Precision | \*\*76.59%\*\* |
+1. User enters health information.
+2. Input data is standardized using **StandardScaler**.
+3. The trained **Random Forest Classifier** predicts the diabetes risk.
+4. The application calculates the diabetes risk percentage.
+5. The system displays:
+   - Diabetes Prediction
+   - Risk Percentage
+   - BMI Analysis
+   - Blood Pressure Analysis
+   - Blood Glucose Analysis
+   - Healthy Lifestyle Score
+   - Patient Health Summary
+   - Personalized Health Recommendations
 
-| Recall | \*\*78.22%\*\* |
+---
 
-| F1-Score | \*\*77.39%\*\* |
+# 🛠️ Technologies Used
 
-| ROC-AUC Score | \*\*80.21%\*\* |
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- NumPy
+- Joblib
 
+---
 
+# 📂 Dataset Information
 
-\---
+- Diabetes Health Dataset
+- Total Records: **100,000**
+- Binary Classification Problem
 
+### Target Variable
 
+- **0 → Non-Diabetic**
+- **1 → Diabetic**
 
-\# 🛠️ Technologies Used
+> **Note:** The original dataset is not included in this repository because of GitHub file size limitations. The trained model (`model.pkl`) is included for prediction purposes.
 
+---
 
-
-\- Python
-
-\- Streamlit
-
-\- Scikit-learn
-
-\- Pandas
-
-\- NumPy
-
-\- Joblib
-
-
-
-\---
-
-
-
-\# 📂 Dataset Information
-
-
-
-\- Diabetes Health Dataset
-
-\- Total Records: \*\*100,000\*\*
-
-\- Binary Classification
-
-\- Target Variable:
-
-&#x20; - \*\*0 → Non-Diabetic\*\*
-
-&#x20; - \*\*1 → Diabetic\*\*
-
-
-
-\---
-
-
-
-\# 📁 Project Structure
-
-
+# 📁 Project Structure
 
 ```
-
-AI-Diabetes-Prediction/
-
+AI-Based-Diabetes-Prediction-System/
 │
-
 ├── app.py
-
-├── train\_model.py
-
+├── train_model.py
 ├── model.pkl
-
 ├── scaler.pkl
-
-├── diabetes\_dataset.csv
-
 ├── banner.png
-
 ├── requirements.txt
-
 ├── README.md
-
 └── .gitignore
-
 ```
 
+---
 
+# 📦 Requirements
 
-\---
+- Python 3.10 or above
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
 
+---
 
+# 🚀 Installation Guide
 
-\# 🚀 Installation
-
-
-
-\### Clone the Repository
-
-
+## 1. Clone the Repository
 
 ```bash
-
-https://github.com/boyareddygaridineshreddy/AI-Based-Diabetes-Prediction-System
-
+git clone https://github.com/boyareddygaridineshreddy/AI-Based-Diabetes-Prediction-System.git
 ```
 
-
-
-Move into the project folder
-
-
+## 2. Move into the Project Folder
 
 ```bash
-
-cd AI-Diabetes-Prediction
-
+cd AI-Based-Diabetes-Prediction-System
 ```
 
-
-
-Install required packages
-
-
+## 3. Install Required Packages
 
 ```bash
-
 pip install -r requirements.txt
-
 ```
 
-
-
-Run the application
-
-
+## 4. Run the Application
 
 ```bash
-
 streamlit run app.py
-
 ```
 
+---
 
+# 🖥️ Application Preview
 
-\---
+## 🏠 Home Page
 
+*(Add a screenshot after deployment)*
 
+---
 
-\# 🖥️ Application Preview
+## 📊 Prediction Result
 
+*(Add a screenshot after deployment)*
 
+---
 
-\## Home Page
+## 📋 Patient Health Summary
 
+*(Add a screenshot after deployment)*
 
+---
 
-\*(Add Screenshot Here)\*
+# 💡 Future Enhancements
 
+- User Login & Authentication
+- Patient History Database
+- Doctor Dashboard
+- PDF Medical Report Generation
+- Cloud Database Integration
+- Mobile Application
+- Deep Learning Models
+- Wearable Device Integration
+- Multi-Disease Prediction System
 
+---
 
-\---
-
-
-
-\## Prediction Result
-
-
-
-\*(Add Screenshot Here)\*
-
-
-
-\---
-
-
-
-\## Patient Summary
-
-
-
-\*(Add Screenshot Here)\*
-
-
-
-\---
-
-
-
-\# 💡 Future Enhancements
-
-
-
-\- User Login System
-
-\- Patient History Database
-
-\- Doctor Dashboard
-
-\- PDF Report Generation
-
-\- Cloud Deployment
-
-\- Integration with Wearable Devices
-
-\- Improved Machine Learning Models
-
-\- Mobile Application
-
-
-
-\---
-
-
-
-\# ⚠️ Disclaimer
-
-
+# ⚠️ Disclaimer
 
 This application provides an AI-based diabetes risk prediction for educational purposes only.
 
-
-
-It is \*\*not\*\* intended to replace professional medical advice, diagnosis, or treatment.
-
-
+It is **not intended to replace professional medical advice, diagnosis, or treatment**.
 
 Always consult a qualified healthcare professional before making medical decisions.
 
+---
 
+# 👨‍💻 Developer
 
-\---
+## **B Dinesh**
 
+**B.Tech – Computer Science and Engineering (Artificial Intelligence & Machine Learning)**
 
+**SCSVMV University**
 
-\# 👨‍💻 Developer
+GitHub: https://github.com/boyareddygaridineshreddy
 
+---
 
+# ⭐ Support
 
-\*\*B Dinesh\*\*
+If you found this project useful, please consider giving it a ⭐ on GitHub.
 
+Thank you for visiting this project!
 
+---
 
-B.Tech Computer Science and Engineering  
+## 📧 Contact
 
-(Artificial Intelligence \& Machine Learning)
+**Developer:** B Dinesh
 
-
-
-\*\*SCSVMV University\*\*
-
-
-
-\---
-
-
-
-\# ⭐ If you like this project
-
-
-
-Please consider giving this repository a ⭐ on GitHub.
-
-
-
-Thank you!
-
+**GitHub:** https://github.com/boyareddygaridineshreddy
