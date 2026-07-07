@@ -154,15 +154,15 @@ The application provides not only the prediction result but also health insights
 
 |---------|------:|
 
-| Accuracy | \*\*72.00%\*\* |
+| Accuracy | \*\*72.76%\*\* |
 
-| Precision | \*\*76.15%\*\* |
+| Precision | \*\*76.59%\*\* |
 
-| Recall | \*\*77.21%\*\* |
+| Recall | \*\*78.22%\*\* |
 
-| F1-Score | \*\*76.68%\*\* |
+| F1-Score | \*\*77.39%\*\* |
 
-| ROC-AUC Score | \*\*79.35%\*\* |
+| ROC-AUC Score | \*\*80.21%\*\* |
 
 
 
