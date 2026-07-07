@@ -189,19 +189,19 @@ streamlit run app.py
 
 ## 🏠 Home Page
 
-*(Add a screenshot after deployment)*
+![Home Page](home.png)
 
 ---
 
 ## 📊 Prediction Result
 
-*(Add a screenshot after deployment)*
+![Prediction Result](prediction.png)
 
 ---
 
 ## 📋 Patient Health Summary
 
-*(Add a screenshot after deployment)*
+![Patient Summary](summary.png)
 
 ---
 
